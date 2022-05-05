@@ -1,0 +1,15 @@
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\net6.0\myConsoleProject.cs.exe
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\net6.0\myConsoleProject.cs.deps.json
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\net6.0\myConsoleProject.cs.runtimeconfig.json
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\net6.0\myConsoleProject.cs.dll
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\net6.0\myConsoleProject.cs.pdb
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\net6.0\myConsoleProject.cs.csproj.AssemblyReference.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\net6.0\myConsoleProject.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\net6.0\myConsoleProject.cs.AssemblyInfoInputs.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\net6.0\myConsoleProject.cs.AssemblyInfo.cs
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\net6.0\myConsoleProject.cs.csproj.CoreCompileInputs.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\net6.0\myConsoleProject.cs.dll
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\net6.0\refint\myConsoleProject.cs.dll
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\net6.0\myConsoleProject.cs.pdb
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\net6.0\myConsoleProject.cs.genruntimeconfig.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\net6.0\ref\myConsoleProject.cs.dll
