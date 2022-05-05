@@ -15,3 +15,5 @@ class SampleApplication
         Console.WriteLine("Hello, World");
     }
 }
+
+// To reate the.exe executable file, open command line - navigate to the folder - type csc/target:exe SampleApplication.cs - to execute the file type SampleApplication.exe and hit enter.
