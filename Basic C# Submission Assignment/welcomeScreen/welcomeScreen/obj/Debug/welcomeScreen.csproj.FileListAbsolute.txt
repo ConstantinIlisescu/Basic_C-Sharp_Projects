@@ -1,0 +1,8 @@
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\welcomeScreen\welcomeScreen\bin\Debug\welcomeScreen.exe.config
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\welcomeScreen\welcomeScreen\bin\Debug\welcomeScreen.exe
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\welcomeScreen\welcomeScreen\bin\Debug\welcomeScreen.pdb
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\welcomeScreen\welcomeScreen\obj\Debug\welcomeScreen.csproj.AssemblyReference.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\welcomeScreen\welcomeScreen\obj\Debug\welcomeScreen.csproj.SuggestedBindingRedirects.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\welcomeScreen\welcomeScreen\obj\Debug\welcomeScreen.csproj.CoreCompileInputs.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\welcomeScreen\welcomeScreen\obj\Debug\welcomeScreen.exe
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\welcomeScreen\welcomeScreen\obj\Debug\welcomeScreen.pdb
