@@ -49,7 +49,7 @@ namespace Practice
 
             //Math casting
             //This exemple will not compile:
-            double num6 = 7.032320934; // also can be written 7.032320934m
+            double num6 = 7.032320934;
             float num7 = 5.9f;
             // float totalFloat2 = num6 + num7;
             //Console.WriteLine(num6 + " + " + num7 + " = " + totalFloat2);
@@ -64,7 +64,16 @@ namespace Practice
             float totalFloat3 = (float)num6 + num7;
             Console.WriteLine(num6 + " + " + num7 + " = " + totalFloat3);
 
-
+            //There is no implicit conversion available from a “float” or “double” to a “decimal.” These conversions must be done “explicitly.” This is due solely to the nature of floats and decimals, which are encoded very differently than other number data types.
+            //For example, you can implicitly cast from integer data types like “int” to a “decimal” this way:
+            decimal num8 = 7.032320934m;
+            int num9 = 5;
+            decimal totalDecimal = num8 + num9;
+            Console.WriteLine(num8 + " + " + num9 + " = " + totalDecimal);
+            //Or
+            sbyte num10 = 5;
+            decimal totalDecimal2 = num8 + num10;
+            Console.WriteLine(num8 + " + " + num10 + " = " + totalDecimal2);
 
 
         }
