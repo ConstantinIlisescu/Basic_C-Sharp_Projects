@@ -9,10 +9,9 @@ namespace Practice
             //Math operations
 
 
-            int num1 = 5;
-            int num2 = 7;
+            int num1 = 7;
+            int num2 = 3;
             int num3 = 12;
-            int num4 = 3;
 
             //Add
             int total = num1 + num2;
@@ -27,8 +26,15 @@ namespace Practice
             Console.WriteLine(num1 + " * " + num2 + " = " + product);
 
             //Division
-            int quotient = num3 / num4;
-            Console.WriteLine(num3 + " / " + num4 + " = " + quotient);
+            int quotient = num3 / num2;
+            Console.WriteLine(num3 + " / " + num2 + " = " + quotient);
+
+            //Reminder(Modulus)
+            int remainder = num1 % num2;
+            Console.WriteLine(num1 + " % " + num2 + " = " + quotient + "(reminder)");
+            //To determinate if a number is even or odd , if output is 1 than the number is odd and if the output is 0 the number is even.
+            int remainder2 = num1 % 2;
+
 
 
         }
