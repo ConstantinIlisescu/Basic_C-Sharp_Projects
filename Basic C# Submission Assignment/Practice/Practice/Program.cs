@@ -81,10 +81,7 @@ namespace Practice
             Console.WriteLine(firstName + " " + lastName);
 
             //Implicit conversion of data types:
-            Console.WriteLine(firstName + " " + num9); //In the example, the compiler implicitly converted the “int” called “num9” to a string data type.
-
-
-
+            Console.WriteLine(firstName + " " + num9); //In the example, the compiler implicitly converted the “int” called “num9” to a string data type. 
 
 
         }
