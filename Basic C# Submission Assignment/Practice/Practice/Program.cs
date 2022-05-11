@@ -75,6 +75,17 @@ namespace Practice
             decimal totalDecimal2 = num8 + num10;
             Console.WriteLine(num8 + " + " + num10 + " = " + totalDecimal2);
 
+            //Math with Strings  - “string concatenation”
+            string firstName = "Jesse";
+            string lastName = "Jhonson ";
+            Console.WriteLine(firstName + " " + lastName);
+
+            //Implicit conversion of data types:
+            Console.WriteLine(firstName + " " + num9); //In the example, the compiler implicitly converted the “int” called “num9” to a string data type.
+
+
+
+
 
         }
     }
