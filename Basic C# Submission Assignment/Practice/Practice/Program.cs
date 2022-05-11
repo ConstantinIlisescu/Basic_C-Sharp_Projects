@@ -42,9 +42,29 @@ namespace Practice
             float totalFloat = num4 + num5;
             Console.WriteLine(num4 + " + " + num5 + " = " + totalFloat);
 
-            //cast num5 - is going to round down, loosing the value after .0
+            //casting num5 - is going to round down, loosing the value after .0
             int resultInt = num4 + (Int32)num5;
             Console.WriteLine(num4 + " + " + num5 + " = " + resultInt);
+
+
+            //Math casting
+            //This exemple will not compile:
+            double num6 = 7.032320934; // also can be written 7.032320934m
+            float num7 = 5.9f;
+            // float totalFloat2 = num6 + num7;
+            //Console.WriteLine(num6 + " + " + num7 + " = " + totalFloat2);
+
+            //This example will compile
+            double totalDouble = num6 + num7;
+            Console.WriteLine(num6 + " + " + num7 + " = " + totalDouble); //A “float” is 32-bit and a “double” is 64-bit. In other words, a “float” is no more than 7 digits long, and a “double” is no more than 15-16 digits long. So a “double” is the more precise choice.
+            //When the compiler converts a “float” to a “double” without being told to, this is called an “implicit conversion.”
+
+            //“explicit conversion” on the “double” value.
+            //This example code will successfully compile:
+            float totalFloat3 = (float)num6 + num7;
+            Console.WriteLine(num6 + " + " + num7 + " = " + totalFloat3);
+
+
 
 
         }
