@@ -20,6 +20,10 @@ namespace Practice
             int difference = num1 - num2;
             Console.WriteLine(num1 + " - " + num2 + " = " + difference);
 
+            //Multiplication
+            int product = num1 * num2;
+            Console.WriteLine(num1 + " * " + num2 + " = " + product);
+
 
         }
     }
