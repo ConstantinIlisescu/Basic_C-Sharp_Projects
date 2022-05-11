@@ -16,6 +16,9 @@ namespace Practice
             int total = num1 + num2;
             Console.WriteLine(num1 + " + " + num2 + " = " + total);
 
+            //Subtraction
+            int difference = num1 - num2;
+            Console.WriteLine(num1 + " - " + num2 + " = " + difference);
 
 
         }
