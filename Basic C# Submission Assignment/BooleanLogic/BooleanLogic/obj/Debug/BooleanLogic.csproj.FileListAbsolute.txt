@@ -1,0 +1,8 @@
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\BooleanLogic\BooleanLogic\bin\Debug\BooleanLogic.exe.config
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\BooleanLogic\BooleanLogic\bin\Debug\BooleanLogic.exe
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\BooleanLogic\BooleanLogic\bin\Debug\BooleanLogic.pdb
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\BooleanLogic\BooleanLogic\obj\Debug\BooleanLogic.csproj.AssemblyReference.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\BooleanLogic\BooleanLogic\obj\Debug\BooleanLogic.csproj.SuggestedBindingRedirects.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\BooleanLogic\BooleanLogic\obj\Debug\BooleanLogic.csproj.CoreCompileInputs.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\BooleanLogic\BooleanLogic\obj\Debug\BooleanLogic.exe
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\BooleanLogic\BooleanLogic\obj\Debug\BooleanLogic.pdb
