@@ -82,6 +82,20 @@ namespace Practice
 
             //Implicit conversion of data types:
             Console.WriteLine(firstName + " " + num9); //In the example, the compiler implicitly converted the “int” called “num9” to a string data type. 
+
+            //Ternary operator
+            int num11 = 11;
+            int num12 = 5;
+
+            string result = num11 > num12 ? "num11 is greater than num12" : "num11 is not greater than num12" ;
+            Console.WriteLine(result);  
+
+
+
+
+            Console.ReadLine();
+
+
         }
     }
 }
