@@ -91,6 +91,20 @@ namespace Practice
             Console.WriteLine(result);  
 
 
+            //IF ELSE statements
+
+            int currentTemperature = 70;
+            int roomTemperature = 70;
+            if (currentTemperature == roomTemperature)
+            {
+                Console.WriteLine("It is exactly room temperature.")
+            }
+            else // we can also use -> else if (a = b) - as many times as we need
+            {
+                Console.WriteLine("It is not exactly room temperature.")
+
+            }
+
 
 
             Console.ReadLine();
