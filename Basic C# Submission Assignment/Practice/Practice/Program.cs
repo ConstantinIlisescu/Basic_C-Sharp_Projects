@@ -102,9 +102,22 @@ namespace Practice
             else // we can also use -> else if (a = b) - as many times as we need
             {
                 Console.WriteLine("It is not exactly room temperature.")
-
             }
-
+            
+            //switch statement
+            int number = 2;
+            switch (number)
+            {
+                case 1:
+                    Console.WriteLine("The number is 1.")
+                    break;
+                case 2:
+                    Console.WriteLine("The number is 2.")
+                    break;
+                case 3:
+                    Console.WriteLine("The number is 3.")
+                    break;
+            }
 
 
             Console.ReadLine();

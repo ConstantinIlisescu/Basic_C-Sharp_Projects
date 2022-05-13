@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Practice"
+    "\\Practice",
+    "\\Practice\\obj",
+    "\\Practice\\Properties"
   ],
   "SelectedNode": "\\Practice\\Program.cs",
   "PreviewInSolutionExplorer": false
