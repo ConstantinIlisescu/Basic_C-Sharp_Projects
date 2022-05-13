@@ -1,3 +1,0 @@
-C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\Price-QuoteApplication\Price-QuoteApplication\obj\Debug\Price-QuoteApplication.csproj.AssemblyReference.cache
-C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\Price-QuoteApplication\Price-QuoteApplication\obj\Debug\Price-QuoteApplication.csproj.SuggestedBindingRedirects.cache
-C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\Price-QuoteApplication\Price-QuoteApplication\obj\Debug\Price-QuoteApplication.csproj.CoreCompileInputs.cache
