@@ -13,11 +13,9 @@ namespace StringAssignment
             Console.WriteLine(string1 + string2 + string3);
 
             //2.Convert a string to uppercase.
-
             Console.WriteLine(string1.ToUpper() + " now I am all uppercase.\n");
 
             //3.Create a StringBuilder and build a paragraph of text, one sentence at a time.
-
             string string4 = "I am the third string - now we were builded using the StringBuilder Class :)\n";
             StringBuilder buildedString = new StringBuilder(string1 + "\n");
             buildedString.Append(string2 + "\n");
