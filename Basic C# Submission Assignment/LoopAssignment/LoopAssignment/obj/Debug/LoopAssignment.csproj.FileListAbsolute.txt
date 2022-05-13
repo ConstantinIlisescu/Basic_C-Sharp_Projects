@@ -1,0 +1,8 @@
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\LoopAssignment\LoopAssignment\bin\Debug\LoopAssignment.exe.config
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\LoopAssignment\LoopAssignment\bin\Debug\LoopAssignment.exe
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\LoopAssignment\LoopAssignment\bin\Debug\LoopAssignment.pdb
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\LoopAssignment\LoopAssignment\obj\Debug\LoopAssignment.csproj.AssemblyReference.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\LoopAssignment\LoopAssignment\obj\Debug\LoopAssignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\LoopAssignment\LoopAssignment\obj\Debug\LoopAssignment.csproj.CoreCompileInputs.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\LoopAssignment\LoopAssignment\obj\Debug\LoopAssignment.exe
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\LoopAssignment\LoopAssignment\obj\Debug\LoopAssignment.pdb
