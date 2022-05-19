@@ -21,14 +21,18 @@ internal class Program
         numArray2[1] = 300;
 
         Console.WriteLine(numArray1[0]);
-        Console.ReadLine();
+
 
 
         //List Fundamentals
         List<int> intList = new List<int>();
 
+        intList.Add(4);
+        intList.Add(10);
 
-        Console.WriteLine(numArray1[0]);
+
+
+        Console.WriteLine(intList[0]);
         Console.ReadLine();
     }
 }
