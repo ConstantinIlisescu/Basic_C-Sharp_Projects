@@ -15,6 +15,8 @@ internal class Program
 
         int[] numArray2 = { 5, 2, 10, 200, 5000 };
 
+        numArray2[1] = 300;
+
         Console.WriteLine(numArray1[0]);
         Console.ReadLine();
     }
