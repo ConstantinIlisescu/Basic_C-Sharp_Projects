@@ -75,7 +75,7 @@ internal class Program
         {
             Console.WriteLine(userLetter + " is not in the list.");
             // Add code to the loop that stops it from executing once a match has been found.
-            return;
+            //return;
         }
 
         //A loop that iterates through the list and then displays the index of the list that contains matching text on the screen.
@@ -86,10 +86,36 @@ internal class Program
             {
                 Console.WriteLine("Your letter is at index: " + i);
                 //Add code to the loop that stops it from executing once a match has been found.
-                return;
+                //return;
             }
 
         }
+        Console.WriteLine("\n\n\n");
+
+
+        //** Console App Assignment Part 4 **//
+        //A list of strings that has at least two identical strings in the list. Ask the user to select text to search for in the list.
+        List<string> listOfStrings1 = new List<string>() { "a", "a", "b", "b", "c", "d", "e", "f", "g" };
+        Console.WriteLine("Type a letter from 'a' to 'g' ");
+        string userLetter1 = Console.ReadLine();
+
+        //Create a loop that iterates through the list and then displays the indices of the list that contain matching text on the screen.
+        for (int i = 0; i < listOfStrings1.Count; i++)
+        {
+            if (listOfStrings1[i].Equals(userLetter1))
+            {
+                Console.WriteLine("Your letter is present at index : " + i);
+            }
+        }
+
+        //Add code to the loop that tells a user if they put in text that isn’t in the list.
+        if (!listOfStrings1.Contains(userLetter1))
+        {
+            Console.WriteLine(userLetter1 + " is not in the list.");
+        }
+
+
+
 
 
         Console.WriteLine("\n\n\n");
