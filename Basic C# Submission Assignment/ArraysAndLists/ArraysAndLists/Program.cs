@@ -31,6 +31,8 @@ internal class Program
         intList.Add(10);
         intList.Remove(10);
 
+        List<string> intList1 = new List<string>();
+        intList1.Add("Costa");
 
 
         Console.WriteLine(intList[0]);
