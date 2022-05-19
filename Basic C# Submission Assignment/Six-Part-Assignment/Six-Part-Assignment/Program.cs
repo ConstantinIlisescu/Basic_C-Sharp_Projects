@@ -25,6 +25,19 @@ internal class Program
         }
 
 
+        //** Console App Assignment Part 2 **//
+        //An infinite loop.
+        //for (int i = 0; true; i++)
+        //{
+        //    Console.WriteLine(i);
+        //}
+        //Save your code.
+        //Fix the infinite loop so that it will execute properly.
+        for (int i = 0; i < 10; i++)
+        {
+            Console.WriteLine(1);
+        }
+
     }
 }
 
