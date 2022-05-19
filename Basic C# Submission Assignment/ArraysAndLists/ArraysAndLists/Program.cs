@@ -29,6 +29,7 @@ internal class Program
 
         intList.Add(4);
         intList.Add(10);
+        intList.Remove(10);
 
 
 
