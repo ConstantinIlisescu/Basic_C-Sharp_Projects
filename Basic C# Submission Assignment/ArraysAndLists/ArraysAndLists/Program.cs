@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 internal class Program
 {
@@ -23,6 +24,12 @@ internal class Program
         Console.ReadLine();
 
 
+        //List Fundamentals
+        List<int> intList = new List<int>();
+
+
+        Console.WriteLine(numArray1[0]);
+        Console.ReadLine();
     }
 }
 
