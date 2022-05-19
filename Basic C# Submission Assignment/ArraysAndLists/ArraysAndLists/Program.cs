@@ -13,6 +13,8 @@ internal class Program
 
         int[] numArray1 = new int[] { 5, 2, 10, 200, 5000 };
 
+        int[] numArray2 = { 5, 2, 10, 200, 5000 };
+
         Console.WriteLine(numArray1[0]);
         Console.ReadLine();
     }
