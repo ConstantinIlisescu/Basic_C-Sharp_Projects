@@ -4,6 +4,8 @@ internal class Program
 {
     static void Main()
     {
+
+        //Array fundamentals
         int[] numArray = new int[5];
         numArray[0] = 5;
         numArray[1] = 2;
@@ -19,6 +21,8 @@ internal class Program
 
         Console.WriteLine(numArray1[0]);
         Console.ReadLine();
+
+
     }
 }
 
