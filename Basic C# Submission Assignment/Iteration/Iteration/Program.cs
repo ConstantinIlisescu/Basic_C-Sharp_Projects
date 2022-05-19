@@ -52,12 +52,29 @@ internal class Program
 
         //******** iterate over a string List using for each loop *******//
 
-        List<string> names = new List<string>() { "Jesse", "Erik", "Daniel", "Adam" };
+        //List<string> names = new List<string>() { "Jesse", "Erik", "Daniel", "Adam" };
 
-        foreach (string name in names)
+        //foreach (string name in names)
+        //{
+        //    Console.WriteLine(name);
+        //}
+
+        //******** iterate over a string List using for each loop and add the values to another list*******//
+        List<int> testScores = new List<int>() { 98, 99, 85, 70, 82, 34, 91, 90, 94 };
+        List<int> passingScores = new List<int>();
+
+        foreach (int score in testScores)
         {
-            Console.WriteLine(name);
+            if (score > 85)
+            {
+                passingScores.Add(score);
+                Console.WriteLine(score);
+            }
         }
+
+        Console.WriteLine(passingScores.Count);
+
+
 
         Console.ReadLine();
     }
