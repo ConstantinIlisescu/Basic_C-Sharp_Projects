@@ -1,0 +1,8 @@
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\Iteration\Iteration\bin\Debug\Iteration.exe.config
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\Iteration\Iteration\bin\Debug\Iteration.exe
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\Iteration\Iteration\bin\Debug\Iteration.pdb
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\Iteration\Iteration\obj\Debug\Iteration.csproj.AssemblyReference.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\Iteration\Iteration\obj\Debug\Iteration.csproj.SuggestedBindingRedirects.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\Iteration\Iteration\obj\Debug\Iteration.csproj.CoreCompileInputs.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\Iteration\Iteration\obj\Debug\Iteration.exe
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\Iteration\Iteration\obj\Debug\Iteration.pdb
