@@ -34,20 +34,29 @@ internal class Program
 
         //******** iterate over a int List using for each loop *******//
 
-        List<int> testScores = new List<int>();
+        //List<int> testScores = new List<int>();
 
-        testScores.Add(98);
-        testScores.Add(99);
-        testScores.Add(81);
-        testScores.Add(72);
-        testScores.Add(70);
+        //testScores.Add(98);
+        //testScores.Add(99);
+        //testScores.Add(81);
+        //testScores.Add(72);
+        //testScores.Add(70);
 
-        foreach (int score in testScores)
+        //foreach (int score in testScores)
+        //{
+        //    if (score > 85)
+        //    {
+        //        Console.WriteLine("Passing test score: " + score);
+        //    }
+        //}
+
+        //******** iterate over a string List using for each loop *******//
+
+        List<string> names = new List<string>() { "Jesse", "Erik", "Daniel", "Adam" };
+
+        foreach (string name in names)
         {
-            if (score > 85)
-            {
-                Console.WriteLine("Passing test score: " + score);
-            }
+            Console.WriteLine(name);
         }
 
         Console.ReadLine();
