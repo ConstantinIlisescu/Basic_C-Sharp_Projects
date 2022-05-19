@@ -24,6 +24,8 @@ internal class Program
             Console.WriteLine(elements[i]);
         }
 
+        Console.WriteLine("\n\n\n");
+
 
         //** Console App Assignment Part 2 **//
         //An infinite loop.
@@ -38,6 +40,30 @@ internal class Program
             Console.WriteLine(1);
         }
 
+        Console.WriteLine("\n\n\n");
+
+        //** Console App Assignment Part 3 **//
+        // A loop where the comparison that’s used to determine whether to continue iterating the loop is a “<” operator.
+        for (int i = 0; i < 10; i++)
+        {
+            Console.WriteLine(i);
+        }
+
+        Console.WriteLine("\n\n\n");
+
+        //Save and execute your code.
+        //A loop where the comparison that’s used to determine whether to continue iterating the loop is a “<=” operator.
+        for (int i = 0; i <= 10; i++)
+        {
+            Console.WriteLine(i);
+        }
+        //Save and execute your code.
+
+        Console.WriteLine("\n\n\n");
+
+
+
+        Console.ReadLine();
     }
 }
 
