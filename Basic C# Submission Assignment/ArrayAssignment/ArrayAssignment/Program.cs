@@ -40,6 +40,7 @@ internal class Program
         List<string> stringList = new List<string> { "first list string", "second list string", "third list string", "fourth list string", "fifth list string" };
         Console.WriteLine("Type a number from 0 to 4, you will see the string stored in this list at the index you selected:");
         int input2 = Int32.Parse(Console.ReadLine());
+        //Add in a message that displays when the user selects an index that doesn’t exist.
         if (input1 > intArray.Length || input1 < 0)
         {
             Console.WriteLine("The number entered is longer//shorter then the list lenght\nPlease retry.");
