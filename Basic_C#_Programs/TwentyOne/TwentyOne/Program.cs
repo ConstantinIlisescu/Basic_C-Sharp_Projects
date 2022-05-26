@@ -8,8 +8,11 @@ namespace TwentyOne
         static void Main(string[] args)
         {
             Deck deck = new Deck();
-            //Named parameter
-            deck = Shuffle(deck: deck, times: 3);
+            ////Named parameter
+            //deck = Shuffle(deck: deck, times: 3);
+
+            int timesShuffled = 0;
+            deck = Shuffle(deck, out timesShuffled, 3);
 
             foreach (Card card in deck.Cards)
             {
@@ -17,23 +20,30 @@ namespace TwentyOne
             }
 
             Console.WriteLine(deck.Cards.Count);
+            Console.WriteLine("Times shuffled {0}", timesShuffled); // format string
 
             Console.ReadLine();
         }
 
         //int times = 1 , is an optional parameter
-        public static Deck Shuffle(Deck deck, int times = 1)
+        //out timesShuffled - needs to go before any optional parameters
+        public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1)
         {
-            List<Card> TempList = new List<Card>();
-            Random random = new Random();
-
-            while (deck.Cards.Count > 0)
+            timesShuffled = 0;
+            for (int i = 0; i < times; i++)
             {
-                int randomIndex = random.Next(0, deck.Cards.Count);
-                TempList.Add(deck.Cards[randomIndex]);
-                deck.Cards.RemoveAt(randomIndex);
+                timesShuffled++;
+                List<Card> TempList = new List<Card>();
+                Random random = new Random();
+
+                while (deck.Cards.Count > 0)
+                {
+                    int randomIndex = random.Next(0, deck.Cards.Count);
+                    TempList.Add(deck.Cards[randomIndex]);
+                    deck.Cards.RemoveAt(randomIndex);
+                }
+                deck.Cards = TempList;
             }
-            deck.Cards = TempList;
             return deck;
         }
 
