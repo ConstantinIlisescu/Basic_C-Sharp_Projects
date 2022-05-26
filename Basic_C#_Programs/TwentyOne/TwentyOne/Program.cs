@@ -33,7 +33,16 @@ namespace TwentyOne
             }
             deck.Cards = TempList;
             return deck;
+        }
 
+        //This is an overloaded method using the same method name as above
+        public static Deck Shuffle(Deck deck, int times)
+        {
+            for (int i = 0; i < times; i++)
+            {
+                deck = Shuffle(deck);
+            }
+            return deck;
 
         }
     }
