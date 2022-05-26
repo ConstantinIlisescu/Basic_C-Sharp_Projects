@@ -2,9 +2,10 @@
 
 namespace TwentyOne
 {
+    //Deck Object
     public class Deck
     {
-        //Construct method always goes above the class
+        //Construct method always goes above the class. This is a method that is called as soon as an object is created.
         public Deck()
         {
 
@@ -37,6 +38,8 @@ namespace TwentyOne
 
         }
 
+
+        //Class property
         public List<Card> Cards { get; set; }
     }
 }
