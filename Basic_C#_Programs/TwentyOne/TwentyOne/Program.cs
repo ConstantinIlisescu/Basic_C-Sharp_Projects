@@ -20,7 +20,8 @@ namespace TwentyOne
             Console.ReadLine();
         }
 
-        public static Deck Shuffle(Deck deck)
+        //int times = 1 , is an optional parameter
+        public static Deck Shuffle(Deck deck, int times = 1)
         {
             List<Card> TempList = new List<Card>();
             Random random = new Random();
@@ -35,15 +36,15 @@ namespace TwentyOne
             return deck;
         }
 
-        //This is an overloaded method using the same method name as above
-        public static Deck Shuffle(Deck deck, int times)
-        {
-            for (int i = 0; i < times; i++)
-            {
-                deck = Shuffle(deck);
-            }
-            return deck;
+        ////This is an overloaded method using the same method name as above
+        //public static Deck Shuffle(Deck deck, int times)
+        //{
+        //    for (int i = 0; i < times; i++)
+        //    {
+        //        deck = Shuffle(deck);
+        //    }
+        //    return deck;
 
-        }
+        //}
     }
 }
