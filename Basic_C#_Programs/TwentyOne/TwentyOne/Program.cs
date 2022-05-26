@@ -6,11 +6,15 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            Card cardOne = new Card();
-            //cardOne.Face = "Queen";
-            //cardOne.Suit = "Spades";
+            Deck deck = new Deck();
+            foreach (Card card in deck.Cards)
+            {
+                Console.WriteLine(card.Face + " of " + card.Suit);
+            }
 
-            Console.WriteLine(cardOne.Face + " of " + cardOne.Suit);
+            Console.WriteLine(deck.Cards.Count);
+
+            Console.ReadLine();
         }
     }
 }
