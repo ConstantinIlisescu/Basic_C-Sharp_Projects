@@ -8,7 +8,8 @@ namespace TwentyOne
         static void Main(string[] args)
         {
             Deck deck = new Deck();
-            deck = Shuffle(deck);
+            //Named parameter
+            deck = Shuffle(deck: deck, times: 3);
 
             foreach (Card card in deck.Cards)
             {
