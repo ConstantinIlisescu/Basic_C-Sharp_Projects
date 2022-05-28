@@ -1,20 +1,27 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace TwentyOne
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Deck deck = new Deck();
-            deck.Shuffle(3);
+            //instanciate the classes
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string> { "Jesse", "Bill", "Joe" };
 
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit);
-            }
+            //Calling the superclass method that is inherited from Game class
+            game.ListPlayers();
 
-            Console.WriteLine(deck.Cards.Count);
+            //Deck deck = new Deck();
+            //deck.Shuffle(3);
+
+            //foreach (Card card in deck.Cards)
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit);
+            //}
+
+            //Console.WriteLine(deck.Cards.Count);
 
             Console.ReadLine();
         }
