@@ -5,6 +5,9 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            //Polymorphism, the ability of a class to morph into its inheriting class
+            //Game game = new TwentyOneGame();
+
             Deck deck = new Deck();
             deck.Shuffle(3);
 
