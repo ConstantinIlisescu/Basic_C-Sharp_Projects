@@ -1,5 +1,6 @@
 ﻿namespace AbstractClassAssig
 {
+    ////This is part of the Assignment Abstract Class
     //1.Create an abstract class called Person with two properties: string firstName and string lastName.
     public abstract class Person
     {
