@@ -2,7 +2,8 @@
 
 namespace TwentyOne
 {
-    internal class TwentyOneGame : Game
+    //A clas can only have one base class inherited, but it can inherit as many interfaces as it needs.
+    public class TwentyOneGame : Game, IWalkAway
     {
         public override void Play()
         {
@@ -13,6 +14,11 @@ namespace TwentyOne
         {
             Console.WriteLine("21 Players:");
             base.ListPlayers();
+        }
+
+        public void WalkAway(Player player)
+        {
+            throw new NotImplementedException();
         }
     }
 }
