@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace TwentyOne
 {
-    public class Game
+    public abstract class Game
     {
         public List<string> Players { get; set; }
         public string Name { get; set; }
