@@ -1,0 +1,8 @@
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\AbstractClassAssig\AbstractClassAssig\bin\Debug\AbstractClassAssig.exe.config
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\AbstractClassAssig\AbstractClassAssig\bin\Debug\AbstractClassAssig.exe
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\AbstractClassAssig\AbstractClassAssig\bin\Debug\AbstractClassAssig.pdb
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\AbstractClassAssig\AbstractClassAssig\obj\Debug\AbstractClassAssig.csproj.AssemblyReference.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\AbstractClassAssig\AbstractClassAssig\obj\Debug\AbstractClassAssig.csproj.SuggestedBindingRedirects.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\AbstractClassAssig\AbstractClassAssig\obj\Debug\AbstractClassAssig.csproj.CoreCompileInputs.cache
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\AbstractClassAssig\AbstractClassAssig\obj\Debug\AbstractClassAssig.exe
+C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic C# Submission Assignment\AbstractClassAssig\AbstractClassAssig\obj\Debug\AbstractClassAssig.pdb
