@@ -4,6 +4,8 @@ namespace OprtOverloadingAssig
 {
     public class Employee
     {
+
+        //Overloading the == operator
         //Solution researched on StackOverFlow: https://stackoverflow.com/questions/25461585/operator-overloading-equals
 
         public int ID { get; set; }
