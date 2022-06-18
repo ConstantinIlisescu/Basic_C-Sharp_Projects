@@ -18,6 +18,9 @@ namespace OprtOverloadingAssig
             //4. Generics Assignment: Instantiate an Employee object with type "int" as its generic parameter. 
             Employee<int> employeeIntThings = new Employee<int>();
 
+            //Assign a list of integers as the property value of Things.
+            employeeIntThings.things = new List<int>() { 19, 32, 44 };
+
 
 
             //Below is part of operators overload  assignment.
