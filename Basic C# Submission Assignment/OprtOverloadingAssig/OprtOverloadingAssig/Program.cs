@@ -15,6 +15,9 @@ namespace OprtOverloadingAssig
             //Assign a list of strings as the property value of Things.
             employeeStringThings.things = new List<string>() { "Bob", "Mark", "Judy" };
 
+            //4. Generics Assignment: Instantiate an Employee object with type "int" as its generic parameter. 
+            Employee<int> employeeIntThings = new Employee<int>();
+
 
 
             //Below is part of operators overload  assignment.
