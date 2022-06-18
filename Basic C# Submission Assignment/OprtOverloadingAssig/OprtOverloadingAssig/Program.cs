@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace OprtOverloadingAssig
 {
@@ -22,6 +23,15 @@ namespace OprtOverloadingAssig
             employeeIntThings.things = new List<int>() { 19, 32, 44 };
 
 
+            //5. Generics Assignment : Create a loop that prints all of the Things to the Console.
+            Console.WriteLine("This is part of Generics assignment\n");
+
+            // Reference : https://stackoverflow.com/questions/1955766/iterate-two-lists-or-arrays-with-one-foreach-statement-in-c-sharp
+            foreach (var thing in employeeIntThings.things.Zip(employeeStringThings.things, Tuple.Create))
+            {
+                Console.WriteLine("{0} is {1} years old. ", thing.Item2, thing.Item1);
+            }
+
 
             //Below is part of operators overload  assignment.
             Employee<int> employee1ID = new Employee<int>();
@@ -31,6 +41,7 @@ namespace OprtOverloadingAssig
             employee2ID.ID = 1;
 
             //use the overloaded operator from the Employee Class, compare the IDs of the two employee instances and ConsoleWrite the answer.
+            Console.WriteLine("\nBelow is part of the operators overloaded assignment");
             bool result = employee1ID == employee2ID;
 
             Console.WriteLine(result);
