@@ -1,18 +1,21 @@
-﻿namespace OprtOverloadingAssig
+﻿using System;
+
+namespace OprtOverloadingAssig
 {
     public class Employee
     {
-        //Solution reference on StackOverFlow: https://stackoverflow.com/questions/25461585/operator-overloading-equals
+        //Solution researched on StackOverFlow: https://stackoverflow.com/questions/25461585/operator-overloading-equals
 
         public int ID { get; set; }
         public string employeeName { get; set; }
 
         public static bool operator ==(Employee A, Employee B)
         {
-            if ((object)A == null)
-                return (object)B == null;
-
-            return A.Equals(B);
+            if (A.ID == B.ID)
+                Console.WriteLine("The IDs are matching");
+            else
+                Console.WriteLine("The ID's are NOT matching");
+            return A.ID == B.ID;
         }
 
         public static bool operator !=(Employee A, Employee B)

@@ -12,10 +12,12 @@ namespace OprtOverloadingAssig
             employee1.employeeName = "Bubulina";
 
             Employee employee2 = new Employee();
-            employee2.ID = 2;
+            employee2.ID = 1;
             employee2.employeeName = "Margarina";
 
-            bool result = employee1.ID == employee2.ID;
+            //use the overloaded operator from the Employee Class, compare the IDs of the two employee instances and ConsoleWrite the answer.
+            bool result = employee1 == employee2;
+
             Console.WriteLine(result);
 
 
