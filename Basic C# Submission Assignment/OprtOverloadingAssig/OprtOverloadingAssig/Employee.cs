@@ -2,7 +2,7 @@
 
 namespace OprtOverloadingAssig
 {
-    public class Employee
+    public class Employee<T>
     {
 
         //Overloading the == operator
@@ -11,7 +11,7 @@ namespace OprtOverloadingAssig
         public int ID { get; set; }
         public string employeeName { get; set; }
 
-        public static bool operator ==(Employee A, Employee B)
+        public static bool operator ==(Employee<T> A, Employee<T> B)
         {
             if (A.ID == B.ID)
                 Console.WriteLine("The IDs are matching");
@@ -20,7 +20,7 @@ namespace OprtOverloadingAssig
             return A.ID == B.ID;
         }
 
-        public static bool operator !=(Employee A, Employee B)
+        public static bool operator !=(Employee<T> A, Employee<T> B)
         {
             return !(A == B);
         }
@@ -30,7 +30,7 @@ namespace OprtOverloadingAssig
             if (obj == null || GetType() != obj.GetType())
                 return false;
 
-            var employee = (Employee)obj;
+            var employee = (Employee<T>)obj;
             return (ID == employee.ID && employeeName == employee.employeeName);
         }
 
