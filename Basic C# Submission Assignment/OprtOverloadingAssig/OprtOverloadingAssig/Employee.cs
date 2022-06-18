@@ -1,13 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace OprtOverloadingAssig
 {
+
+    //1. Generics Assignment : Make the Employee class take a generic type parameter. <T> added
     public class Employee<T>
     {
 
-        //Overloading the == operator
-        //Solution researched on StackOverFlow: https://stackoverflow.com/questions/25461585/operator-overloading-equals
+        //2. Generics Assignment : Add a property to the Employee class called "things" and have its data type be a generic list matching the generic type of the class.
+        public List<T> things;
 
+
+
+        //Below code is part of operators overload  assignment
+        //Solution researched on StackOverFlow: https://stackoverflow.com/questions/25461585/operator-overloading-equals
         public int ID { get; set; }
         public string employeeName { get; set; }
 
