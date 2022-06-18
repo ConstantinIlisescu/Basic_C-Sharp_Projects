@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace OprtOverloadingAssig
 {
@@ -8,9 +9,11 @@ namespace OprtOverloadingAssig
         {
 
 
-            //3. Generics Assignment: Instantiate an Employee object with type "string" as its generic parameter. Assign a list of strings as the property value of Things.
-            Employee<string> employee = new Employee<string>();
+            //3. Generics Assignment: Instantiate an Employee object with type "string" as its generic parameter. 
+            Employee<string> employeeStringThings = new Employee<string>();
 
+            //Assign a list of strings as the property value of Things.
+            employeeStringThings.things = new List<string>() { "Bob", "Mark", "Judy" };
 
 
 
