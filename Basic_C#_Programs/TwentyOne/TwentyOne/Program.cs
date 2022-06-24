@@ -7,17 +7,19 @@ namespace TwentyOne
         static void Main(string[] args)
         {
 
+            Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
+            string playerName = Console.ReadLine();
 
-            Deck deck = new Deck();
-            deck.Shuffle(3);
+            Console.WriteLine("How much money did you bring today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
 
-            foreach (Card card in deck.Cards)
+            Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playerName);
+            string answer = Console.ReadLine().ToLower();
+            if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
-                Console.WriteLine(card.Face + " of " + card.Suit);
+                Player player = new Player(playerName, bank);
             }
 
-            Console.WriteLine(deck.Cards.Count);
-            Console.ReadLine();
         }
     }
 }
