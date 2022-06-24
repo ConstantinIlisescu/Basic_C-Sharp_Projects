@@ -31,6 +31,9 @@ namespace TwentyOne
                     game.Play();
                 }
 
+                //When it exits the game the player gets removed
+                game -= player;
+
             }
 
         }
