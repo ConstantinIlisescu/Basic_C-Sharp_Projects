@@ -17,7 +17,20 @@ namespace TwentyOne
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
+                //create player using the constructor
                 Player player = new Player(playerName, bank);
+
+                //polymorphism 
+                Game game = new TwentyOneGame();
+
+                game += player;
+                player.isActivelyPlaying = true;
+
+                while (player.isActivelyPlaying && player.Balance > 0)
+                {
+                    game.Play();
+                }
+
             }
 
         }
