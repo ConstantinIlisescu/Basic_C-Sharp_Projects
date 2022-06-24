@@ -10,6 +10,8 @@ namespace TwentyOne
         public Deck Deck { get; set; }
         public int Balance { get; set; }
 
+
+        //this is a method of class Dealer
         public void Deal(List<Card> Hand)
         {
             Hand.Add(Deck.Cards.First());
