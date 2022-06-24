@@ -31,10 +31,14 @@ namespace TwentyOne
                     game.Play();
                 }
 
-                //When it exits the game the player gets removed
+                //When while loop exits the game the player gets removed
                 game -= player;
-
+                Console.WriteLine("Thank you for playing!");
             }
+
+            //If the condition above is not "yes", this happens
+            Console.WriteLine("Feel free to look around the casino. Bye for now.");
+            Console.ReadLine();
 
         }
     }
