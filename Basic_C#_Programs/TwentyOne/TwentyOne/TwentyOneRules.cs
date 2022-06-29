@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace TwentyOne
 {
@@ -21,6 +22,16 @@ namespace TwentyOne
             [Face.King] = 10,
             [Face.Ace] = 1,
         };
+
+        public static int[] GetAllPossibleHandValues(List<Card> Hand)
+        {
+            int aceCount = Hand.Count(x => x.Face == Face.Ace); // lambda expresion loops all faces in the hand and return the count number where the condition is meet(in this case, how many aces are in the hand)
+            int[] result = new int[aceCount + 1]; // create an array
+            int value = Hand.Sum(x => _cardValues[x.Face]); // lambda expresion to summ the faces
+            result[0] = value;
+            if (result.Length == 1) return result; // if can be writen in one line if only one line of logic is used
+
+        }
 
         public static bool CheckForBlackJack(List<Card> Hand)
         {
