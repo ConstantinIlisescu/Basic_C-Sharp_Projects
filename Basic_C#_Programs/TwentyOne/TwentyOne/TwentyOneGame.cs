@@ -33,6 +33,8 @@ namespace TwentyOne
                 {
                     return; // this will not return anything, it will exit the Play method and continue the while loop one more time. And if teh balance is > then 0 and player.isActivelyPlaying is true, the play method will start again.
                 }
+
+                Bets[player] = bet;
             }
 
         }
