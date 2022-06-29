@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace TwentyOne
 {
@@ -18,6 +19,21 @@ namespace TwentyOne
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
         public bool Stay { get; set; }
+
+
+        public bool Bet(int amounth)
+        {
+            if (Balance - amounth < 0)
+            {
+                Console.WriteLine("You do not have enough to place a bet that size.");
+                return false;
+            }
+            else
+            {
+                Balance -= amounth;
+                return true;
+            }
+        }
 
         //overloaded method
         public static Game operator +(Game game, Player player)
