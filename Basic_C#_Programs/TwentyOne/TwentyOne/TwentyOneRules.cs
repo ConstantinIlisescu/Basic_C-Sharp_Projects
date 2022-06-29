@@ -40,7 +40,10 @@ namespace TwentyOne
 
         public static bool CheckForBlackJack(List<Card> Hand)
         {
-
+            int[] possibleValues = GetAllPossibleHandValues(Hand);
+            int value = possibleValues.Max();//lambda expresion which returns the max number and assigns it to value.
+            if (value == 21) return true;
+            else return false;
         }
     }
 }
