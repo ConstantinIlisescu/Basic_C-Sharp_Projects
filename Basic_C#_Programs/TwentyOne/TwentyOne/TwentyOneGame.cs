@@ -37,6 +37,26 @@ namespace TwentyOne
                 Bets[player] = bet;
             }
 
+            //give two cards to each player
+            for (int i = 0; i < 2; i++)
+            {
+                Console.WriteLine("Dealing...");
+                foreach (Player player in Players)
+                {
+                    Console.Write("{0}: ", player.Name);
+                    Dealer.Deal(player.Hand);
+                    if (i == 1)
+                    {
+                        bool blackJack = TwentyOneRules.CheckForBlackJack(player.Hand);
+                        if (blackJack)
+                        {
+                            Console.WriteLine("Blackjack| {0} wins {1}", player.Name, Bets[player]);
+                            player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player]);
+                            return;
+                        }
+                    }
+                }
+            }
         }
 
         public override void ListPlayers()
