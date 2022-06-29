@@ -20,8 +20,11 @@ namespace TwentyOne
             [Face.Queen] = 10,
             [Face.King] = 10,
             [Face.Ace] = 1,
-
-
         };
+
+        public static bool CheckForBlackJack(List<Card> Hand)
+        {
+
+        }
     }
 }
