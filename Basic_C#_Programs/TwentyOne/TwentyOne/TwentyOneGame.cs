@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace TwentyOne
 {
@@ -124,6 +125,7 @@ namespace TwentyOne
                 foreach (KeyValuePair<Player, int> entry in Bets)
                 {
                     Console.WriteLine("{0} won {1}!", entry.Key.Name, entry.Value);
+                    Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2);//lambda expresion
                 }
             }
 
