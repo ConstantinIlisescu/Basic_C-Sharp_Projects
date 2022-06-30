@@ -139,6 +139,12 @@ namespace TwentyOne
                     Console.WriteLine("Push! No one wins.");
                     player.Balance += Bets[player];
                 }
+                else if (playerWon == true)
+                {
+                    Console.WriteLine("{0} won {1}", player.Name, Bets[player]);
+                    player.Balance += (Bets[player] * 2);
+                    Dealer.Balance -= Bets[player];
+                }
             }
 
 
