@@ -117,6 +117,15 @@ namespace TwentyOne
                 Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand);
                 Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
             }
+            if (Dealer.Stay) Console.WriteLine("Dealer is staying.");
+            if (Dealer.isBusted)
+            {
+                Console.WriteLine("Dealer busted!");
+                foreach (KeyValuePair<Player, int> entry in Bets)
+                {
+                    Console.WriteLine("{0} won {1}!", entry.Key.Name, entry.Value);
+                }
+            }
 
         }//end of play method.
 
