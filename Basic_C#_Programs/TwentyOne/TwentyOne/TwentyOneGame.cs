@@ -150,7 +150,13 @@ namespace TwentyOne
                     Console.WriteLine("Dealer Wins {0}!", Bets[player]);
                     Dealer.Balance += Bets[player];
                 }
+                Console.WriteLine("Playe again?");
+                string answer = Console.ReadLine().ToLower();
+                if (answer == "yes" || answer == "yeah") player.isActivelyPlaying = true;
+                else player.isActivelyPlaying = false;
             }
+
+
 
 
         }//end of play method.
