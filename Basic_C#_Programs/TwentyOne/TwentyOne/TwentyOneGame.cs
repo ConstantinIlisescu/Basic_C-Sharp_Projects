@@ -126,6 +126,7 @@ namespace TwentyOne
                 {
                     Console.WriteLine("{0} won {1}!", entry.Key.Name, entry.Value);
                     Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2);//lambda expresion
+                    Dealer.Balance -= entry.Value;
                 }
             }
 
