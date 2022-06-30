@@ -53,6 +53,18 @@ namespace TwentyOne
             else return false;
         }
 
+        public static bool ShouldDealerStay(List<Card> Hand)
+        {
+            int[] possibleHandValues = GetAllPossibleHandValues(Hand);
+            foreach (int value in possibleHandValues)
+            {
+                if (value > 16 && value < 22)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
 
 
     }
