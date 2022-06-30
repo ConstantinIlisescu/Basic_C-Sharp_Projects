@@ -7,10 +7,11 @@ namespace TwentyOne
     {
         //Properties
         private List<Player> _players = new List<Player>();
-        public List<Player> Players { get { return _players; }; set { _players = value; }; }
+        private Dictionary<Player, int> _bets = new Dictionary<Player, int>();
 
+        public List<Player> Players { get { return _players; } set { _players = value; } }
         public string Name { get; set; }
-        public Dictionary<Player, int> Bets { get; set; }
+        public Dictionary<Player, int> Bets { get { return _bets; } set { _bets = value; } }
 
 
         //an abstract method can only exist in an abstarct class, and must be defined in any inheriting class using "override" [public override void Play()]
