@@ -128,6 +128,7 @@ namespace TwentyOne
                     Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2);//lambda expresion
                     Dealer.Balance -= entry.Value;
                 }
+                return;
             }
 
         }//end of play method.
