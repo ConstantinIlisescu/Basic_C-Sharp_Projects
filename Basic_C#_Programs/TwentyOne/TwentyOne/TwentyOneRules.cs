@@ -45,5 +45,15 @@ namespace TwentyOne
             if (value == 21) return true;
             else return false;
         }
+
+        public static bool IsBusted(List<Card> Hand)
+        {
+            int value = GetAllPossibleHandValues(Hand).Min();
+            if (value > 21) return true;
+            else return false;
+        }
+
+
+
     }
 }
