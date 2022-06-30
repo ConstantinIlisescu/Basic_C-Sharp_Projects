@@ -108,7 +108,8 @@ namespace TwentyOne
                 }
             }
 
-
+            Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand);
+            Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
 
 
         }//end of play method.
