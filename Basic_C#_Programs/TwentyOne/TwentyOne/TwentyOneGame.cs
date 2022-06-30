@@ -134,6 +134,11 @@ namespace TwentyOne
             foreach (Player player in Players)
             {
                 bool? playerWon = TwentyOneRules.CompareHands(player.Hand, Dealer.Hand);//bool? alows the bool (structs - value type) to have three values / true / false / null.(the bool is now nullable bool)
+                if (playerWon == null)
+                {
+                    Console.WriteLine("Push! No one wins.");
+                    player.Balance += Bets[player];
+                }
             }
 
 
