@@ -73,6 +73,11 @@ namespace TwentyOne
 
             int playerScore = playerResults.Where(x => x < 22).Max(); //filter the data for < 22 and give the max value.
             int dealerScore = dealerResults.Where(x => x < 22).Max();
+
+            if (playerScore > dealerScore) return true;
+            else if (playerScore < dealerScore) return false;
+            else return null;
+
         }
 
 
