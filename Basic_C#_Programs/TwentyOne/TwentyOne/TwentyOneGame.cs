@@ -145,6 +145,11 @@ namespace TwentyOne
                     player.Balance += (Bets[player] * 2);
                     Dealer.Balance -= Bets[player];
                 }
+                else
+                {
+                    Console.WriteLine("Dealer Wins {0}!", Bets[player]);
+                    Dealer.Balance += Bets[player];
+                }
             }
 
 
