@@ -131,6 +131,12 @@ namespace TwentyOne
                 return;
             }
 
+            foreach (Player player in Players)
+            {
+                bool? playerWon = TwentyOneRules.CompareHands(player.Hand, Dealer.Hand);//bool? alows the bool (structs - value type) to have three values / true / false / null.(the bool is now nullable bool)
+            }
+
+
         }//end of play method.
 
         public override void ListPlayers()
