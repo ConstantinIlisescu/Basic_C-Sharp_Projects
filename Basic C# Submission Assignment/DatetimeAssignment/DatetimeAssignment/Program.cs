@@ -15,9 +15,9 @@ namespace DatetimeAssignment
             int userInput = Convert.ToInt32(Console.ReadLine());
 
             //3. Prints to the console the exact time it will be in X hours, X being the number the user entered in step 2.
-
-
             Console.WriteLine("The current time {0} + {1} hours equals {2}", currentDate, userInput, currentDate.AddHours(userInput));
+
+
 
             Console.ReadLine();
         }
