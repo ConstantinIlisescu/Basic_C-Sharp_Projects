@@ -12,7 +12,17 @@ namespace File_I.O_Assignment
 
             //2. Logs that number to a text file.
             string userInput1 = Console.ReadLine();
-            File.WriteAllText(@"C:\Users\coste\Desktop\userInputLogFile.txt", userInput1);
+
+            Console.WriteLine("\nType another number.");
+            string userInput2 = Console.ReadLine();
+
+            using (StreamWriter file = new StreamWriter(@"C:\Users\coste\Desktop\userInputLogFile.txt", true))
+            {
+                file.WriteLine(userInput1);
+                file.WriteLine(userInput2);
+            }
+
+
 
 
 
