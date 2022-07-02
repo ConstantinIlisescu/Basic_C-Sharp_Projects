@@ -7,6 +7,8 @@ namespace File_I.O_Assignment
     {
         static void Main(string[] args)
         {
+
+            string path = @"C:\Users\coste\Desktop\userInputLogFile.txt"; // enter your own file path
             //1. Asks the user for a number.
             Console.WriteLine("Type a number.");
 
@@ -16,10 +18,17 @@ namespace File_I.O_Assignment
             Console.WriteLine("\nType another number.");
             string userInput2 = Console.ReadLine();
 
-            using (StreamWriter file = new StreamWriter(@"C:\Users\coste\Desktop\userInputLogFile.txt", true))
+            using (StreamWriter file = new StreamWriter(path, true))
             {
                 file.WriteLine(userInput1);
                 file.WriteLine(userInput2);
+            }
+
+            // 3. Prints the text file back to the user.
+            using (StreamReader sr = File.OpenText(path))
+            {
+                Console.WriteLine("You typed:");
+                Console.WriteLine(sr.ReadToEnd());
             }
 
 
