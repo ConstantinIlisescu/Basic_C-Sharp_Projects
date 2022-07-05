@@ -1,4 +1,6 @@
-﻿namespace ExceptionHandlingAssig
+﻿using System;
+
+namespace ExceptionHandlingAssig
 {
     internal class Program
     {
@@ -6,7 +8,11 @@
         {
 
             //1. Ask the user for their age.
+            Console.WriteLine("What is your age?");
+            string age = Console.ReadLine();
 
+
+            Console.ReadLine();
         }
     }
 }
