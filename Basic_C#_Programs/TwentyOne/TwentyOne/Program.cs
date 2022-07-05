@@ -1,6 +1,7 @@
 ﻿using Casino;
 using Casino.TwentyOne;
 using System;
+using System.IO;
 
 namespace TwentyOne
 {
@@ -9,9 +10,6 @@ namespace TwentyOne
         static void Main(string[] args)
         {
             const string casinoName = "Grand Hotel and Casino";
-
-            Guid identifier = Guid.NewGuid();
-
             Console.WriteLine("Welcome to the {0}. Let's start by telling me your name.", casinoName);
             string playerName = Console.ReadLine();
 
@@ -24,6 +22,15 @@ namespace TwentyOne
             {
                 //create player using the constructor
                 Player player = new Player(playerName, bank);
+
+                //add a global unique identifier to each player
+                player.Id = Guid.NewGuid();
+
+                //log the 
+                using (StreamWriter file = new StreamWriter(@"C:\Users\coste\OneDrive\Programing_and_WebDev_folder\Software Developer\Basic_C-Sharp_Projects\Basic_C#_Programs\TwentyOne\TwentyOne\log.txt", true))
+                {
+                    file.WriteLine(player.Id);
+                }
 
                 //polymorphism 
                 Game game = new TwentyOneGame();
