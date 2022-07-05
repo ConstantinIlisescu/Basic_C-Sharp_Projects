@@ -50,6 +50,12 @@ namespace TwentyOne
                     {
                         game.Play();
                     }
+                    catch (ArgumentException)
+                    {
+                        Console.WriteLine("You entered a number that has the value less than zero!");
+                        Console.ReadLine();
+                        return;
+                    }
                     catch (Exception)
                     {
                         Console.WriteLine("An error occured. Please contact your System Administrator.");
