@@ -50,9 +50,9 @@ namespace TwentyOne
                     {
                         game.Play();
                     }
-                    catch (ArgumentException)
+                    catch (FraudException)
                     {
-                        Console.WriteLine("You entered a number that has the value less than zero!");
+                        Console.WriteLine("You entered a number that has the value less than zero! Security was notified!");
                         Console.ReadLine();
                         return;
                     }

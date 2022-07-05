@@ -2,7 +2,7 @@
 
 namespace Casino
 {
-    internal class FraudException : Exception // inherits from Exception
+    public class FraudException : Exception // inherits from Exception
     {
         public FraudException()
             : base() { }
