@@ -46,7 +46,17 @@ namespace TwentyOne
 
                 while (player.isActivelyPlaying && player.Balance > 0)
                 {
-                    game.Play();
+                    try
+                    {
+                        game.Play();
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("An error occured. Please contact your System Administrator.");
+                        Console.ReadLine();
+                        return;
+                    }
+
                 }
 
                 //When while loop exits the game the player gets removed
