@@ -1,6 +1,7 @@
 ﻿using Casino;
 using Casino.TwentyOne;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.IO;
@@ -14,6 +15,21 @@ namespace TwentyOne
             const string casinoName = "Grand Hotel and Casino";
             Console.WriteLine("Welcome to the {0}. Let's start by telling me your name.", casinoName);
             string playerName = Console.ReadLine();
+            if (playerName.ToLower() == "admin")
+            {
+                List<ExceptionEntity> Exceptions = ReadOnlyException();
+                foreach (var exception in Exceptions)
+                {
+                    Console.Write(exception.Id + " | ");
+                    Console.Write(exception.ExceptionType + " | ");
+                    Console.Write(exception.ExceptionMessage + " | ");
+                    Console.Write(exception.TimeStamp + " | ");
+                    Console.WriteLine();
+                }
+                Console.Read();
+                return;
+            }
+
 
             bool validAnswer = false;
             int bank = 0;
@@ -117,6 +133,43 @@ namespace TwentyOne
 
 
             }
+
+        }
+
+        private static List<ExceptionEntity> ReadOnlyException()
+        {
+
+            //This is the conection path to the dataBase.
+            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TwentyOneGame;
+                                                        Integrated Security=True;Connect Timeout=30;Encrypt=False;
+                                                        TrustServerCertificate=False;ApplicationIntent=ReadWrite;
+                                                        MultiSubnetFailover=False";
+
+            string querystring = "Select Id, ExceptionType, ExceptionMessage, TimeStamp From [Table]";
+
+            List<ExceptionEntity> Exceptions = new List<ExceptionEntity>();
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(querystring, connection);
+
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    ExceptionEntity exception = new ExceptionEntity();
+                    exception.Id = Convert.ToInt32(reader["Id"]);
+                    exception.ExceptionType = reader["ExceptionType"].ToString();
+                    exception.ExceptionMessage = reader["ExceptionMessage"].ToString();
+                    exception.TimeStamp = Convert.ToDateTime(reader["TimeStamp"]);
+                    Exceptions.Add(exception);
+                }
+                connection.Close();
+            }
+
+            return Exceptions;
 
         }
 
