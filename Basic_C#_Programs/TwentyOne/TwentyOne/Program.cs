@@ -145,13 +145,13 @@ namespace TwentyOne
                                                         TrustServerCertificate=False;ApplicationIntent=ReadWrite;
                                                         MultiSubnetFailover=False";
 
-            string querystring = "Select Id, ExceptionType, ExceptionMessage, TimeStamp From [Table]";
+            string queryString = "Select Id, ExceptionType, ExceptionMessage, TimeStamp From [Table]";
 
             List<ExceptionEntity> Exceptions = new List<ExceptionEntity>();
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                SqlCommand command = new SqlCommand(querystring, connection);
+                SqlCommand command = new SqlCommand(queryString, connection);
 
                 connection.Open();
 
