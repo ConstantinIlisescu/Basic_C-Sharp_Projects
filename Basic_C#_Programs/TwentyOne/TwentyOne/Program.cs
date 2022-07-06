@@ -54,7 +54,7 @@ namespace TwentyOne
                     }
                     catch (FraudException ex)
                     {
-                        Console.WriteLine("You entered a number that has the value less than zero! Security was notified!");
+                        Console.WriteLine(ex.Message);
                         UpdateDbWithExceptions(ex);
                         Console.ReadLine();
                         return;
@@ -92,7 +92,7 @@ namespace TwentyOne
             //This is a parameterized query and are a type of SQL query that requires at least one parameter (@ExceptionType, etc) for execution.
             //A placeholder is normally substituted for the parameter in the SQL query
 
-            string queryString = @"INSERT INTO Table (ExceptionType, ExceptionMessage,TimeStamp) VALUES
+            string queryString = @"INSERT INTO [Table] (ExceptionType, ExceptionMessage,TimeStamp) VALUES
                                                     (@ExceptionType, @ExceptionMessage,@TimeStamp)";
 
             //Creating a using statement to check and control the unmanaged code, or unmanaged resources. "using" helps protect from SQL injection attacks
