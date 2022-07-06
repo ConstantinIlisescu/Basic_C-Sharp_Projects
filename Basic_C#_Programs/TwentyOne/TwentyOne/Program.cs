@@ -52,15 +52,17 @@ namespace TwentyOne
                     {
                         game.Play();
                     }
-                    catch (FraudException)
+                    catch (FraudException ex)
                     {
                         Console.WriteLine("You entered a number that has the value less than zero! Security was notified!");
+                        UpdateDbWithExceptions(ex);
                         Console.ReadLine();
                         return;
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
                         Console.WriteLine("An error occured. Please contact your System Administrator.");
+                        UpdateDbWithExceptions(ex);
                         Console.ReadLine();
                         return;
                     }
